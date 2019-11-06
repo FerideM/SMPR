@@ -22,3 +22,29 @@
 Метод взвешенных ближайших соседей, в отличии от kNN, оценивает степень важности каждого объекта обучающей выборки, используя параметр w - вес объекта, где w = q^i. q - некоторое число ( 0 < q < 1), оптимальное значение которого определяется по критерию скользящего контроля.  При q = 1 получаем наилучший результат, LOO=0.033.
 ![Карта классификации kwNN](https://github.com/FerideM/SMPR/blob/master/kwnn%20map.JPG)
 ![LOO от q](https://github.com/FerideM/SMPR/blob/master/LOO%20q.JPG)  
+
+### Метод парзеновского окна
+Парзеновское окно - частный случай метрических алгоритмов.
+Парзеновская оценка плотности имеет вид:
+![](https://github.com/FerideM/SMPR/blob/master/PWindw.gif)
+
+Формулы ядер:
+![](https://github.com/FerideM/SMPR/blob/master/12121.gif)
+
+h - параметр характеризующий ширину окна, который мы находим по критерию скользящего контроля LOO.
+При H = 0.35 получаем наилучший результат, LOO=0.04.
+
+![Прямоугольное ядро](https://github.com/FerideM/SMPR/blob/master/map%20rect.JPG)
+![LOO для прямоугольного ядра](https://github.com/FerideM/SMPR/blob/master/LOO%20h%20rect.JPG)
+
+![Треугольное ядро](https://github.com/FerideM/SMPR/blob/master/map%20triang.JPG)
+![LOO для треугольного ядра](https://github.com/FerideM/SMPR/blob/master/LOO%20h%20triang.JPG)
+
+![Квартическое ядро](https://github.com/FerideM/SMPR/blob/master/quart%20map.JPG)
+![LOO для квартического ядра](https://github.com/FerideM/SMPR/blob/master/LOO%20h%20quartic.JPG)
+
+![Ядро Епанечникова](https://github.com/FerideM/SMPR/blob/master/epanech%20map.JPG)
+![LOO для ядра Епанечникова](https://github.com/FerideM/SMPR/blob/master/LOO%20h%20epaneh.JPG)
+
+![Гауссовское ядро](https://github.com/FerideM/SMPR/blob/master/gauss%20map1.JPG)
+![LOO для гауссовского ядра](https://github.com/FerideM/SMPR/blob/master/LOO%20h%20gauss.JPG)
