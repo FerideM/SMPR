@@ -29,7 +29,11 @@
 ![](https://github.com/FerideM/SMPR/blob/master/PWindw.gif)
 
 Формулы ядер:
-![](https://github.com/FerideM/SMPR/blob/master/12121.gif)
+Прямоугольное ядро: ![](https://github.com/FerideM/SMPR/blob/master/15.gif)
+Треугольное ядро: ![](https://github.com/FerideM/SMPR/blob/master/13.gif)
+Квартическое ядро: ![](https://github.com/FerideM/SMPR/blob/master/12121.gif)
+Ядро Епанечникова: ![](https://github.com/FerideM/SMPR/blob/master/11.gif)
+Гауссовское ядро: ![](https://github.com/FerideM/SMPR/blob/master/14.gif)
 
 h - параметр характеризующий ширину окна, который мы находим по критерию скользящего контроля LOO.
 При H = 0.35 получаем наилучший результат, LOO=0.04.
@@ -44,7 +48,7 @@ h - параметр характеризующий ширину окна, ко�
 ![LOO для квартического ядра](https://github.com/FerideM/SMPR/blob/master/LOO%20h%20quartic.JPG)
 
 ![Ядро Епанечникова](https://github.com/FerideM/SMPR/blob/master/epanech%20map.JPG)
-![LOO для ядра Епанечникова](https://github.com/FerideM/SMPR/blob/master/LOO%20h%20epaneh.JPG)
+![LOO для ядра Епанечникова](https://github.com/FerideM/SMPR/blob/master/LOO%20h%20epanech.JPG)
 
 ![Гауссовское ядро](https://github.com/FerideM/SMPR/blob/master/gauss%20map1.JPG)
 ![LOO для гауссовского ядра](https://github.com/FerideM/SMPR/blob/master/LOO%20h%20gauss.JPG)
