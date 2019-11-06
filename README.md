@@ -29,10 +29,15 @@
 ![](https://github.com/FerideM/SMPR/blob/master/PWindw.gif)
 
 Формулы ядер:
+
 Прямоугольное ядро: ![](https://github.com/FerideM/SMPR/blob/master/15.gif)
+
 Треугольное ядро: ![](https://github.com/FerideM/SMPR/blob/master/13.gif)
+
 Квартическое ядро: ![](https://github.com/FerideM/SMPR/blob/master/12121.gif)
+
 Ядро Епанечникова: ![](https://github.com/FerideM/SMPR/blob/master/11.gif)
+
 Гауссовское ядро: ![](https://github.com/FerideM/SMPR/blob/master/14.gif)
 
 h - параметр характеризующий ширину окна, который мы находим по критерию скользящего контроля LOO.
