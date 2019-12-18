@@ -81,6 +81,13 @@ h - параметр характеризующий ширину окна, ко�
 
 ![Линии уровня](https://github.com/FerideM/SMPR/blob/master/lines.JPG)
 
+Как работает программа:
+
+![](https://github.com/FerideM/SMPR/blob/master/levln1.JPG)
+![](https://github.com/FerideM/SMPR/blob/master/levln1.JPG)
+
+![](https://github.com/FerideM/SMPR/blob/master/levln1.JPG)
+
 Код: [lines](https://github.com/FerideM/SMPR/blob/master/levline.R)
 
 ###	Наивный нормальный байесовский классификатор
