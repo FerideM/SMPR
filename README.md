@@ -84,9 +84,9 @@ h - параметр характеризующий ширину окна, ко�
 Как работает программа:
 
 ![](https://github.com/FerideM/SMPR/blob/master/levln1.JPG)
-![](https://github.com/FerideM/SMPR/blob/master/levln1.JPG)
+![](https://github.com/FerideM/SMPR/blob/master/levln2.JPG)
 
-![](https://github.com/FerideM/SMPR/blob/master/levln1.JPG)
+![](https://github.com/FerideM/SMPR/blob/master/levln3.JPG)
 
 Код: [lines](https://github.com/FerideM/SMPR/blob/master/levline.R)
 
